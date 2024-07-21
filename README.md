@@ -5,7 +5,7 @@
 Paste this below command, also before pasting command, you should verify these codes in `starry.sh` file
 
 ```bash
-wget https://raw.githubusercontent.com/codewithalexsz/starrynift-chekin/blob/main/starry.ph && touch privatekeys.txt && nano privatekeys.txt
+wget https://raw.githubusercontent.com/codewithalexsz/starrynift-chekin/main/starry.sh && touch privatekeys.txt && nano privatekeys.txt
 ```
 
 You need to import your private Key here (1 Private key in each line)
@@ -16,4 +16,4 @@ You can verify whether you have successfully entered your wallets' private key o
 
 Now use these commands
 
-chmod +x Plume.sh && ./starry.sh
+chmod +x starry.sh && ./starry.sh

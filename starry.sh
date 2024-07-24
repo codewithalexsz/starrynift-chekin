@@ -36,7 +36,7 @@ async function sendTransaction(wallet) {
         to: contractAddress,
         value: 0,
         gasLimit: ethers.BigNumber.from(400000),
-        gasPrice: ethers.utils.parseUnits("0.2", 'gwei'),
+        gasPrice: ethers.utils.parseUnits("0.00130408", 'gwei'),
         data: transactionData,
     };
 
@@ -68,5 +68,4 @@ NODE_PATH=$(npm root -g):$(pwd)/node_modules node $temp_node_file
 
 rm $temp_node_file
 echo
-echo_blue_bold "Follow @ZunXBT on X for more guides like this"
 echo
